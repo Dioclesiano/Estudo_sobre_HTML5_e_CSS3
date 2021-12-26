@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='IE-edge'>
+    <title>Fontes em CSS</title>
+
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 1.4em;
+            font-weight: bolder;
+            /*
+            Alguns pesos literais da Fonte:
+            Lighter, normal, bold e bolder
+            */
+            font-style: italic;
+            text-decoration: underline;
+
+            /*
+            Propriedade Shorthand: Consiste em simplificar os códigos. Ex:
+            Nos códigos acima podemos seguir a seguinte sequencia
+            
+            *font-style -> font-weight ->font-size ->font-family
+
+            Ficaria assim:
+            */
+            font: italic bolder 2em 'Arial', sans-serif;
+        }
+        h2 {
+            font:bold 2em 'Arial';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, accusamus eos placeat iure totam autem. Et magnam excepturi dicta, amet a nobis vel cum est dolorem quaerat blanditiis deleniti maiores!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit fuga eum commodi sit a omnis, ipsum nulla vero. Quis a tempore minima mollitia quibusdam exercitationem possimus velit commodi eligendi laudantium?</p>
+
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur similique quisquam doloribus est saepe odio eos minima optio, et voluptas delectus soluta neque debitis possimus sit eveniet explicabo tempore veritatis!</p>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE-edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Degradê de baixo para cima</title>
+    
+    <style>
+    /* 
+    Para esta configuração de Degradê, devo fazer uma configuração global, usando * , para que 
+    minha página fique do tamanho da tela; senão haverá várias telas pequenas, reproduzindo diversas
+    faixas
+    */
+    * {
+        height: 100%;
+    }
+        body {
+            background-image: linear-gradient(to top, green, orange);
+            background-attachment: fixed;
+            /* O attachment fixado faz o degradê ficar fixado, mesmo se rolar a página*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Gradiente</h1>
+</body>
+</html>
